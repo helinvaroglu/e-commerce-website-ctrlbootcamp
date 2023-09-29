@@ -28,6 +28,7 @@ h1 {
 .product-card {
     display: flex; /* Display as flex container */
     align-items: center; /* Align items at the center */
+    width: 80%;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

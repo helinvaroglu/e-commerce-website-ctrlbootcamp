@@ -7,7 +7,7 @@ const shopItems = [
     color: "Silver",
     desc: "8 GB RAM, 6.67 inch screen, 128 GB Memory, 4000 mAh battery",
     price: 19499,
-    img: "../images/mobile-phone/huawei-nova10.jpg"
+    img: "../images/mobile-phone/huawei-nova10.jpg",
   },
 
   {
@@ -17,7 +17,7 @@ const shopItems = [
     color: "White",
     desc: "4 GB RAM, 6.1 inch screen, 128 GB Memory, 3046 mAh battery",
     price: 24999,
-    img: "../images/mobile-phone/iphone11.jpg"
+    img: "../images/mobile-phone/iphone11.jpg",
   },
 
   {
@@ -27,7 +27,7 @@ const shopItems = [
     color: "Red",
     desc: "6 GB RAM, 6.1 inch screen, 512 GB Memory, 3279 mAh battery",
     price: 55999,
-    img: "../images/mobile-phone/iphone14.jpg"
+    img: "../images/mobile-phone/iphone14.jpg",
   },
 
   {
@@ -37,7 +37,7 @@ const shopItems = [
     color: "Black",
     desc: "6 GB RAM, 6.1 inch screen, 512 GB Memory, 3877 mAh battery",
     price: 61999,
-    img: "../images/mobile-phone/iphone15.jpg"
+    img: "../images/mobile-phone/iphone15.jpg",
   },
 
   {
@@ -47,7 +47,7 @@ const shopItems = [
     color: "Black",
     desc: "8 GB RAM, 6.4 inch screen, 256 GB Memory, 4880 mAh battery",
     price: 10999,
-    img: "../images/mobile-phone/realme-10.jpg"
+    img: "../images/mobile-phone/realme-10.jpg",
   },
 
   {
@@ -57,7 +57,7 @@ const shopItems = [
     color: "Black",
     desc: "4 GB RAM, 6.74 inch screen, 128 GB Memory, 4880 mAh battery",
     price: 6249,
-    img: "../images/mobile-phone/realme-c53.jpg"
+    img: "../images/mobile-phone/realme-c53.jpg",
   },
 
   {
@@ -67,7 +67,7 @@ const shopItems = [
     color: "Light Blue",
     desc: "6 GB RAM, 6.67 inch screen, 128 GB Memory, 5000 mAh battery",
     price: 9499,
-    img: "../images/mobile-phone/redmi-note12.jpg"
+    img: "../images/mobile-phone/redmi-note12.jpg",
   },
 
   {
@@ -77,7 +77,7 @@ const shopItems = [
     color: "White",
     desc: "8 GB RAM, 6.67 inch screen, 256 GB Memory, 5000 mAh battery",
     price: 12999,
-    img: "../images/mobile-phone/redmi-note12pro.jpg"
+    img: "../images/mobile-phone/redmi-note12pro.jpg",
   },
 
   {
@@ -87,7 +87,7 @@ const shopItems = [
     color: "Pearl White",
     desc: "4 GB RAM, 6.5 inch screen, 128 GB Memory, 5000 mAh battery",
     price: 5999,
-    img: "../images/mobile-phone/samsung-galaxy_a04s.jpg"
+    img: "../images/mobile-phone/samsung-galaxy_a04s.jpg",
   },
 
   {
@@ -97,7 +97,7 @@ const shopItems = [
     color: "Silver",
     desc: "4 GB RAM, 6.6 inch screen, 128 GB Memory, 5000 mAh battery",
     price: 6999,
-    img: "../images/mobile-phone/samsung-galaxy_a14.jpg"
+    img: "../images/mobile-phone/samsung-galaxy_a14.jpg",
   },
 
   {
@@ -107,7 +107,7 @@ const shopItems = [
     color: "Black",
     desc: "6 GB RAM, 6.5 inch screen, 128 GB Memory, 5000 mAh battery",
     price: 8.999,
-    img: "../images/mobile-phone/samsung-galaxy_a24.jpg"
+    img: "../images/mobile-phone/samsung-galaxy_a24.jpg",
   },
 
   {
@@ -117,7 +117,7 @@ const shopItems = [
     color: "Silver",
     desc: "8 GB RAM, 6.6 inch screen, 256 GB Memory, 5000 mAh battery",
     price: 11499,
-    img: "../images/mobile-phone/samsung-galaxy_a34.jpg"
+    img: "../images/mobile-phone/samsung-galaxy_a34.jpg",
   },
 
   {
@@ -127,7 +127,7 @@ const shopItems = [
     color: "Yellow",
     desc: "8 GB RAM, 6.4 inch screen, 256 GB Memory, 5000 mAh battery",
     price: 16999,
-    img: "../images/mobile-phone/samsung-galaxy_a54.jpg"
+    img: "../images/mobile-phone/samsung-galaxy_a54.jpg",
   },
 
   {
@@ -137,7 +137,7 @@ const shopItems = [
     color: "Green",
     desc: "8 GB RAM, 6.1 inch screen, 128 GB Memory, 3700 mAh battery",
     price: 22999,
-    img: "../images/mobile-phone/samsung-galaxy_s22.jpg"
+    img: "../images/mobile-phone/samsung-galaxy_s22.jpg",
   },
 
   {
@@ -147,7 +147,7 @@ const shopItems = [
     color: "Silver",
     desc: "8 GB RAM, 6.1 inch screen, 256 GB Memory, 3900 mAh battery",
     price: 32999,
-    img: "../images/mobile-phone/samsung-galaxy_s23.jpg"
+    img: "../images/mobile-phone/samsung-galaxy_s23.jpg",
   },
 
   {
@@ -157,7 +157,7 @@ const shopItems = [
     color: "Blue",
     desc: "8 GB RAM, 6.78 inch screen, 256 GB Memory, 4600 mAh battery",
     price: 19999,
-    img: "../images/mobile-phone/vivo-v29.jpg"
+    img: "../images/mobile-phone/vivo-v29.jpg",
   },
 
   {
@@ -167,7 +167,7 @@ const shopItems = [
     color: "Night Blue",
     desc: "6 GB RAM, 6.55 inch screen, 128 GB Memory, 5000 mAh battery",
     price: 8499,
-    img: "../images/mobile-phone/vivo-y22s.jpg"
+    img: "../images/mobile-phone/vivo-y22s.jpg",
   },
 
   {
@@ -177,7 +177,7 @@ const shopItems = [
     color: "Black",
     desc: "8 GB RAM, 6.64 inch screen, 128 GB Memory, 5000 mAh battery",
     price: 9999,
-    img: "../images/mobile-phone/vivo-y36.jpg"
+    img: "../images/mobile-phone/vivo-y36.jpg",
   },
 
   {
@@ -187,7 +187,7 @@ const shopItems = [
     color: "Silver",
     desc: "11th gen i5, 4 cores, 8 GB RAM, 15.6 inch screen, 512 GB Memory",
     price: 16299,
-    img: "../images/laptop/acer-aspire3.jpg"
+    img: "../images/laptop/acer-aspire3.jpg",
   },
 
   {
@@ -197,7 +197,7 @@ const shopItems = [
     color: "Black",
     desc: "12th gen i5, 12 cores, 16 GB RAM, 15.6 inch screen, 512 GB Memory",
     price: 28499,
-    img: "../images/laptop/acer-aspire7.jpg"
+    img: "../images/laptop/acer-aspire7.jpg",
   },
 
   {
@@ -207,7 +207,7 @@ const shopItems = [
     color: "Gray",
     desc: "13th gen i9, 24 cores, 16 GB RAM, 16 inch screen, 1 TB Memory",
     price: 58883,
-    img: "../images/laptop/asus-rog_strix.jpg"
+    img: "../images/laptop/asus-rog_strix.jpg",
   },
 
   {
@@ -217,7 +217,7 @@ const shopItems = [
     color: "Silver",
     desc: "12th gen i5, 10 cores, 8 GB RAM, 15.6 inch screen, 512 GB Memory",
     price: 19137,
-    img: "../images/laptop/asus-vivobook15.jpg"
+    img: "../images/laptop/asus-vivobook15.jpg",
   },
 
   {
@@ -227,7 +227,7 @@ const shopItems = [
     color: "Black",
     desc: "12th gen i5, 8 cores, 8 GB RAM, 16 inch screen, 512 GB Memory",
     price: 22999,
-    img: "../images/laptop/asus-vivobook16x.jpg"
+    img: "../images/laptop/asus-vivobook16x.jpg",
   },
 
   {
@@ -237,7 +237,7 @@ const shopItems = [
     color: "Silver",
     desc: "11th gen i3, 2 cores, 4 GB RAM, 15.6 inch screen, 256 GB Memory",
     price: 11499,
-    img: "../images/laptop/asus-x515ea.jpg"
+    img: "../images/laptop/asus-x515ea.jpg",
   },
 
   {
@@ -247,7 +247,7 @@ const shopItems = [
     color: "Black",
     desc: "12th gen i7, 10 cores, 16 GB RAM, 15.6 inch screen, 1 TB Memory",
     price: 34999,
-    img: "../images/laptop/casper-excalibur.jpg"
+    img: "../images/laptop/casper-excalibur.jpg",
   },
 
   {
@@ -257,7 +257,7 @@ const shopItems = [
     color: "Dark Gray",
     desc: "12th gen i5, 12 cores, 16 GB RAM, 15.6 inch screen, 512 GB Memory",
     price: 29000,
-    img: "../images/laptop/dell-g15.jpg"
+    img: "../images/laptop/dell-g15.jpg",
   },
 
   {
@@ -267,7 +267,7 @@ const shopItems = [
     color: "Silver",
     desc: "7th gen Ryzen 7, 8 cores, 8 GB RAM, 15.6 inch screen, 512 GB Memory",
     price: 18999,
-    img: "../images/laptop/hp-pavilion.jpg"
+    img: "../images/laptop/hp-pavilion.jpg",
   },
 
   {
@@ -277,7 +277,7 @@ const shopItems = [
     color: "Black",
     desc: "7th gen ryzen 7, 8 cores, 8 GB RAM, 15.6 inch screen, 512 GB Memory",
     price: 18999,
-    img: "../images/laptop/hp-victus.jpg"
+    img: "../images/laptop/hp-victus.jpg",
   },
 
   {
@@ -287,7 +287,7 @@ const shopItems = [
     color: "Silver",
     desc: "12th gen i5, 12 cores, 16 GB RAM, 15.6 inch screen, 512 GB Memory",
     price: 23499,
-    img: "../images/laptop/huawei-matebook14.jpg"
+    img: "../images/laptop/huawei-matebook14.jpg",
   },
 
   {
@@ -297,7 +297,7 @@ const shopItems = [
     color: "Gray",
     desc: "11th gen i5, 4 cores, 8 GB RAM, 15.6 inch screen, 512 GB Memory",
     price: 20999,
-    img: "../images/laptop/lenovo-ideapad3.jpg"
+    img: "../images/laptop/lenovo-ideapad3.jpg",
   },
 
   {
@@ -307,7 +307,7 @@ const shopItems = [
     color: "Gray",
     desc: "13th gen i7, 10 cores, 16 GB RAM, 16 inch screen, 1 TB Memory",
     price: 44999,
-    img: "../images/laptop/lenovo-yoga7.jpg"
+    img: "../images/laptop/lenovo-yoga7.jpg",
   },
 
   {
@@ -317,7 +317,7 @@ const shopItems = [
     color: "Dark Gray",
     desc: "12th gen i7, 10 cores, 16 GB RAM, 15.6 inch screen, 1 TB Memory",
     price: 43750,
-    img: "../images/laptop/msi-cyborg15.jpg"
+    img: "../images/laptop/msi-cyborg15.jpg",
   },
 
   {
@@ -327,6 +327,106 @@ const shopItems = [
     color: "Black",
     desc: "12th gen i5, 8 cores, 16 GB RAM, 15.6 inch screen, 512 GB Memory",
     price: 30999,
-    img: "../images/laptop/msi-thin_gf63.jpg"
-  }
+    img: "../images/laptop/msi-thin_gf63.jpg",
+  },
+
+  {
+    id: 34,
+    name: "JBL C100SI",
+    type: "Earphone",
+    color: "Black",
+    desc: "Wired (1.2m), 3.5mm jack, 16 ohm empedance, 9mm driver",
+    price: 219,
+    img: "../images/earphone/jbl-c100si.jpg",
+  },
+
+  {
+    id: 35,
+    name: "Airpods 2nd Gen",
+    type: "Earphone",
+    color: "White",
+    desc: "Wireless, water-resistant, 24 hours battery life, Bluetooth 5.3",
+    price: 3369,
+    img: "../images/earphone/airpods-2ndgen.jpg",
+  },
+
+  {
+    id: 36,
+    name: "Airpods Pro 2nd Gen",
+    type: "Earphone",
+    color: "White",
+    desc: "Wireless, water-resistant, 24 hours battery life, Bluetooth 5.0",
+    price: 6449,
+    img: "../images/earphone/airpods-pro_2ndgen.jpg",
+  },
+
+  {
+    id: 37,
+    name: "Samsung Galaxy Buds2",
+    type: "Earphone",
+    color: "Graphite",
+    desc: "Wireless, water-resistant, 20 hours battery life, 11mm driver",
+    price: 1899,
+    img: "../images/earphone/samsung-galaxy_buds2.jpg",
+  },
+
+  {
+    id: 38,
+    name: "Philips TAE1105",
+    type: "Earphone",
+    color: "Blue",
+    desc: "Wired (1.2m), 3.5mm jack, 16 ohm empedance, 8.6mm driver",
+    price: 219,
+    img: "../images/earphone/philips-tae1105.jpg",
+  },
+
+  {
+    id: 39,
+    name: "JBL Tune 560BT",
+    type: "Headphone",
+    color: "Black",
+    desc: "Wireless, 32 ohm empedance, 16 hours battery life, 32mm driver",
+    price: 1590,
+    img: "../images/headphone/jbl-tune560bt.jpg",
+  },
+
+  {
+    id: 40,
+    name: "Philips TAH4205",
+    type: "Headphone",
+    color: "Black",
+    desc: "Wireless, 32 ohm empedance, 29 hours battery life, 32mm driver",
+    price: 1499,
+    img: "../images/headphone/philips-tah4205.jpg",
+  },
+
+  {
+    id: 41,
+    name: "JBL Tune 520bt",
+    type: "Headphone",
+    color: "Blue",
+    desc: "Wireless, 32 ohm empedance, 57 hours battery life, 32mm driver",
+    price: 1789,
+    img: "../images/headphone/jbl-tune520bt.jpg",
+  },
+
+  {
+    id: 42,
+    name: "Logitech G432",
+    type: "Headphone",
+    color: "Black",
+    desc: "Wired (1.8m), 3.5 mm jack, 39 ohm empedance, 7.1 surround sound",
+    price: 2339,
+    img: "../images/headphone/logitech-g432.jpg",
+  },
+
+  {
+    id: 43,
+    name: "Snopy SN-2688",
+    type: "Headphone",
+    color: "Black",
+    desc: "Wired (1.7m), 3.5 mm jack, 32 ohm empedance, 40mm driver",
+    price: 361,
+    img: "../images/headphone/snopy-sn2688.jpg",
+  },
 ];
