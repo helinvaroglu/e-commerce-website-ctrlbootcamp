@@ -13,7 +13,7 @@ h1 {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #363636;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,7 +30,7 @@ h1 {
     align-items: center; /* Align items at the center */
     width: 80%;
     padding: 20px;
-    background-color: #fff;
+    background-color: #5E5E5E;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -73,7 +73,7 @@ h1 {
 }
 
 .add-to-cart-button {
-    background-color: #007bff;
+    background-color: #45E3FC;
     color: #fff;
     border: none;
     padding: 5px 10px;
