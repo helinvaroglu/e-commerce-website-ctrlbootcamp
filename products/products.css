@@ -1,20 +1,22 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
     margin: 0;
     padding: 0;
+}
+
+.product-body {
+    background-color: #363636;
 }
 
 h1 {
     text-align: center;
 }
 
-.container {
+.container-product {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     background-color: #363636;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* CSS for Product cards */
@@ -53,6 +55,11 @@ h1 {
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
+    color: #222222;
+}
+
+.product-color {
+    color: #F2F2F3;
 }
 
 .product-type {
@@ -63,6 +70,7 @@ h1 {
 
 .product-desc {
     margin-top: 10px;
+    color: #F2F2F3;
 }
 
 .product-price {
@@ -84,7 +92,7 @@ h1 {
 }
 
 .add-to-cart-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #38C4DA; /* Darker blue on hover */
 }
 
 /* CSS for Pagination */
@@ -95,7 +103,7 @@ h1 {
 }
 
 .pagination button {
-    background-color: #007bff;
+    background-color: #45E3FC;
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -104,11 +112,11 @@ h1 {
 }
 
 .pagination button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #38C4DA; /* Darker blue on hover */
 }
 
 .pagination button.active {
-    background-color: #0056b3;
+    background-color: #2DA4B7;
 }
 
 .pagination button:disabled {
