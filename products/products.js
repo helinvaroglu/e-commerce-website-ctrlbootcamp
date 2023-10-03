@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
     const productsContainer = document.getElementById("products");
     const paginationContainer = document.getElementById("pagination");
-  
+
     // Number of products to display per page
     const productsPerPage = 5;
-  
+
     // Calculate the total number of pages
     const totalPages = Math.ceil(shopItems.length / productsPerPage);
-  
+
     // Initialize the current page to the first page
     let currentPage = 1;
-  
+
     // Function to create a product card
     function createProductCard(product) {
         return `
@@ -29,33 +29,33 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         `;
     }
-     
+    
     function filterProducts(searchText) {
-      const filteredProducts = shopItems.filter(product => {
-          return product.name.toLowerCase().includes(searchText.toLowerCase())
-          || product.color.toLowerCase().includes(searchText.toLowerCase())
-          || product.type.toLowerCase().includes(searchText.toLowerCase()) ;
-      });
-  
+    const filteredProducts = shopItems.filter(product => {
+        return product.name.toLowerCase().includes(searchText.toLowerCase())
+        || product.color.toLowerCase().includes(searchText.toLowerCase())
+        || product.type.toLowerCase().includes(searchText.toLowerCase()) ;
+    });
+
         displayProducts(filteredProducts);
         updatePagination(filteredProducts);
-  
-  }
-  // Add event listener to search button
-  const searchButton = document.getElementById("search-button");
-  searchButton.addEventListener("click", () => {
-      const searchText = document.getElementById("search-input").value;
-      filterProducts(searchText);
-  
-  });
-  
+
+}
+// Add event listener to search button
+const searchButton = document.getElementById("search-button");
+searchButton.addEventListener("click", () => {
+    const searchText = document.getElementById("search-input").value;
+    filterProducts(searchText);
+
+});
+
     // Function to display products for the current page
     function displayProducts(productsToDisplay) {
         productsContainer.innerHTML = productsToDisplay
             .map(createProductCard)
             .join("");
     }
-  
+
     // Function to update pagination controls
     function updatePagination(productType) {
         paginationContainer.innerHTML = "";
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
             paginationContainer.appendChild(button);
         }
     }
-  
+
     // Function to get products for the current page
     function getCurrentPageProducts(productType) {
         const startIndex = (currentPage - 1) * productsPerPage;
@@ -94,12 +94,12 @@ document.addEventListener("DOMContentLoaded", function () {
         displayProducts(mobilePhoneProducts);
         updatePagination(filteredPr);
     });
-  
+
     document.getElementById("laptop").addEventListener("click", () => {
         currentPage = 1;
         const filteredPr = shopItems.filter(pr=> pr.type ==="Laptop");
         const lafilteredPropProducts = getCurrentPageProducts(filteredPr).filter(product => product.type === "Laptop");
-      
+    
         displayProducts(lafilteredPropProducts);
         updatePagination(filteredPr);
     });
@@ -119,31 +119,57 @@ document.addEventListener("DOMContentLoaded", function () {
         displayProducts(headProducts);
         updatePagination(filteredPr);
     });
-  
+
     // Initial display of products and pagination controls
     const initialProducts = getCurrentPageProducts(shopItems);
     displayProducts(initialProducts);
     updatePagination(shopItems);
+
+    function displayCartItems() {
+        let cartItems = JSON.parse(localStorage.getItem("shopping_cart"));
+        const cartContainer = document.getElementById("cart-items");
+    
+        if (cartItems && cartContainer) {
+        cartContainer.innerHTML = ""; // Clear the previous cart items
+    
+        cartItems.forEach((cartItem) => {
+            const product = cartItem.item;
+            const cartItemDiv = document.createElement("div");
+            cartItemDiv.classList.add("cart-item");
+    
+            cartItemDiv.innerHTML = `
+            <div class="product">
+                <ion-icon name="close-circle-outline"></ion-icon>
+                <img src="${product.img}" alt="${product.name}">
+                <span>${product.name}</span>
+                <div class="price">${product.price} TL</div>
+                <div class="quantity">${cartItem.quantity}</div>
+                <div class="total">${product.price * cartItem.quantity},00</div>
+            </div>
+            `;
+    
+            cartContainer.appendChild(cartItemDiv);
+        });
+        }
+    }
   
 });
-  
-  
-  
-  
-  // Add to cart functionality
-  let shopping_cart = JSON.parse(localStorage.getItem("shopping_cart")) || [];
-  
-  function addToCart(productId) {
+
+// Add to cart functionality
+let shopping_cart = JSON.parse(localStorage.getItem("shopping_cart")) || [];
+function addToCart(productId) {
     const existingProduct = shopping_cart.find(item => item.item.id === productId);
     const addedItem = shopItems.find(item => item.id === productId);
-  
+
     if (existingProduct) {
         existingProduct.quantity++;
     } else {
         shopping_cart.push({ item: addedItem, quantity: 1 });
     }
-  
+
     localStorage.setItem("shopping_cart", JSON.stringify(shopping_cart));
-    console.log(localStorage);
-  }
+    console.log(shopping_cart);
+}
+  
+
   
