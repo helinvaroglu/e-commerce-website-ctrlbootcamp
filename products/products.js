@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
     const productsContainer = document.getElementById("products");
     const paginationContainer = document.getElementById("pagination");
@@ -106,28 +105,27 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     document.getElementById("earphone").addEventListener("click", () => {
         currentPage = 1;
-      const filteredPr = shopItems.filter(pr=> pr.type ==="Earphone");
-      const lafilteredPropProducts = getCurrentPageProducts(filteredPr).filter(product => product.type === "Earphone");
+        const filteredPr = shopItems.filter(pr=> pr.type ==="Earphone");
+        const lafilteredPropProducts = getCurrentPageProducts(filteredPr).filter(product => product.type === "Earphone");
+        
+        displayProducts(lafilteredPropProducts);
+        updatePagination(filteredPr);
+    });
+    document.getElementById("headphone").addEventListener("click", () => {
+        currentPage = 1;
+        const filteredPr = shopItems.filter(pr=> pr.type === "Headphone");
+        const headProducts = getCurrentPageProducts(filteredPr).filter(product => product.type === "Headphone");
     
-      displayProducts(lafilteredPropProducts);
-      updatePagination(filteredPr);
-  });
-  document.getElementById("headphone").addEventListener("click", () => {
-    currentPage = 1;
-    const filteredPr = shopItems.filter(pr=> pr.type === "Headphone");
-    const headProducts = getCurrentPageProducts(filteredPr).filter(product => product.type === "Headphone");
-  
-    displayProducts(headProducts);
-    updatePagination(filteredPr);
-  });
+        displayProducts(headProducts);
+        updatePagination(filteredPr);
+    });
   
     // Initial display of products and pagination controls
     const initialProducts = getCurrentPageProducts(shopItems);
     displayProducts(initialProducts);
     updatePagination(shopItems);
-  });
   
-  
+});
   
   
   
