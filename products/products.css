@@ -96,6 +96,9 @@ h1 {
 }
 
 /* CSS for Pagination */
+.pagination-container {
+    text-align: center;
+}
 .pagination {
     display: flex;
     justify-content: center;
