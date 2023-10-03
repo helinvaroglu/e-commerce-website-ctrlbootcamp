@@ -48,7 +48,7 @@ h1 {
     margin-left: 2px;
     margin-right: 2px;
     padding: 7px 7px;
-    color: #F2F2F3;
+    color: #0a0a0b;
     border-radius: 8%;
 }
 
@@ -67,6 +67,15 @@ h1 {
     margin-right: 2px;
     padding: 7px 7px;
     border-radius: 10%;
+}
+#all-product{
+    background-color: #696969;
+    border: 2px solid #363636;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 7px 7px;
+    border-radius: 10%;
+    width: 40px;
 }
 
 .product-card {
