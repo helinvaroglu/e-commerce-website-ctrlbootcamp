@@ -27,6 +27,22 @@ h1 {
     gap: 20px;
 }
 
+#category-buttons {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#mobile-phone,
+#laptop,
+#headphone,
+#earphone {
+    background-color: #696969;
+    border: 2px solid #363636;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 7px 7px;
+}
+
 .product-card {
     display: flex; /* Display as flex container */
     align-items: center; /* Align items at the center */
