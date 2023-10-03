@@ -144,5 +144,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   
     localStorage.setItem("shopping_cart", JSON.stringify(shopping_cart));
+    console.log(localStorage);
   }
   
