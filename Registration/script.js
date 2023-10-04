@@ -1,15 +1,21 @@
 const form = document.getElementById('form');
+const username = document.getElementById('username');
+const email = document.getElementById('email');
+const password = document.getElementById('password');
+const confirm_password = document.getElementById('confirm_password');
+const confirm_message = document.getElementById('confirm_message');
 
-form.addEventListener('submit', e => {
-  e.preventDefault();
-})
-
-var confirmPassword = function() {
-  if (document.getElementById('password').value !=
-    document.getElementById('confirmPassword').value) {
-    document.getElementById('confirmMessage').style.display = 'inline';
-  }
-  else {
-    document.getElementById('confirmMessage').style.display = 'none';
+function confirmPassword() {
+  if (password != null && confirm_password != null) {
+    if (password.value !=
+      confirm_password.value) {
+      confirm_message.style.display = 'inline';
+    }
+    else {
+      confirm_message.style.display = 'none';
+    }
   }
 }
+form.addEventListener('submit', function(e) {
+  alert("User Created")
+})

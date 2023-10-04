@@ -70,7 +70,7 @@ section
   width: 100%;
 }
 
-input 
+input, button
 {
   position: relative;
   width: 100%;
@@ -139,7 +139,7 @@ a:hover
   opacity: 0.6;
 }
 
-#confirmMessage
+#confirm_message
 {
   font-size: 14px;
   display: none;
