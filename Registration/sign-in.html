@@ -22,17 +22,50 @@
               <a href="#">Forgot Password</a> <a href="#">Sign Up</a>
             </div>
             <div class="inputBox">
-              <input class="btn" type="submit" value="Login" />
+              <div class="btn" id="sign_in_btn">Login</div>
             </div>
           </form>
         </div>
       </div>
     </section>
-    <script>
-      const form = document.getElementById("form");
-      form.addEventListener("submit", function (e) {
-        alert("signed in")
-      });
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+      import {
+        getAuth,
+        signInWithEmailAndPassword,
+      } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyBDdyF0NNkwyP3YpVVqYFSPBSfXE3GWDGc",
+        authDomain: "ctrl-plus-pg-2.firebaseapp.com",
+        projectId: "ctrl-plus-pg-2",
+        storageBucket: "ctrl-plus-pg-2.appspot.com",
+        messagingSenderId: "14318839196",
+        appId: "1:14318839196:web:e853ad856b6d8e48e81459",
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+
+      const email = document.querySelector("#email");
+      const password = document.querySelector("#password");
+      const form = document.querySelector("#form");
+      const sign_in_btn = document.getElementById("sign_in_btn");
+
+      const userSignIn = async () => {
+        signInWithEmailAndPassword(auth, email.value, password.value)
+          .then((userCredential) => {
+            const user = userCredential.user;
+            alert("You have signed in successfully!");
+          })
+          .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            console.log(errorCode + errorMessage);
+            alert("Wrong email or password!");
+          });
+      };
+      sign_in_btn.addEventListener("click", userSignIn);
     </script>
   </body>
 </html>
