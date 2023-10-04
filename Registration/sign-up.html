@@ -13,23 +13,41 @@
           <h2>Sign Up</h2>
           <form class="form" id="form">
             <div class="inputBox">
-              <input type="text" id="username" required /> <i>Username</i>
+              <input
+                type="text"
+                id="username"
+                minlength="4"
+                maxlength="15"
+                required
+              />
+              <i>Username</i>
             </div>
             <div class="inputBox">
               <input type="email" id="email" required /> <i>Email</i>
             </div>
             <div class="inputBox">
-              <input type="password" id="password" required /> <i>Password</i>
+              <input
+                type="password"
+                id="password"
+                minlength="6"
+                maxlength="24"
+                required
+              />
+              <i>Password</i>
             </div>
             <div class="inputBox" onkeyup="confirmPassword()">
-              <input type="password" id="confirmPassword" required/> <i>Confirm Password</i>
+              <input type="password" id="confirm_password" required />
+              <i>Confirm Password</i>
             </div>
-            <span id="confirmMessage">Passwords don't match</span>
+            <span id="confirm_message">Passwords don't match</span>
             <div class="links">
-              <p>Already have an account?</p> <a href="#">Sign In</a>
+              <p>Already have an account?</p>
+              <a href="#">Sign In</a>
             </div>
             <div class="inputBox">
-              <input class="btn"type="submit" value="Sign Up"/>
+              <button class="btn" id="sign_up" type="submit" value="Sign Up">
+                Create Account
+              </button>
             </div>
           </form>
         </div>
