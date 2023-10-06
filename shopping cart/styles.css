@@ -1,0 +1,222 @@
+/* CARD PAGE */
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(10, 10, 10, 0.3);
+}
+
+body {
+  background-color: #212121;
+}
+h4 {
+  color: bisque;
+}
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 60px 0 60px;
+}
+.products-container {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgrey;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  position: relative;
+}
+
+.product-title {
+  width: 45%;
+}
+.price {
+  width: 15%;
+
+  display: flex;
+  align-items: center;
+}
+
+.total {
+  width: 10%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+.price {
+  width: 15%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+.quantity {
+  width: 30%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.products-container ion-icon {
+  font-size: 25px;
+  color: blue;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.basketTotalTitle {
+  width: 30%;
+}
+.basketTotal {
+  width: 10%;
+}
+/************************
+
+
+*/
+a {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #555;
+  font-family: arial, sans-serif;
+  background-color: #bbb;
+  border: 1px solid #999;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: -40px;
+  position: relative;
+  text-align: right;
+  font-size: 1.5em;
+  letter-spacing: -1px;
+  text-shadow: 0px 1px 0px #fafafa;
+  box-shadow: 0 1px 2px #444, 0 0 0 7px #ccc, 0 0 0 9px #fff, 0 0 0 11px #999,
+    0 3px 10px 8px #ccc;
+}
+#f1 {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #555;
+  font-family: arial, sans-serif;
+  background-color: #bbb;
+  border: 1px solid #999;
+  padding: 13px 20px;
+  border-radius: 12px;
+  margin: 30px;
+  float: right;
+  position: relative;
+  font-size: 1.5em;
+  margin-right: 100px;
+  margin-bottom: -1100px;
+  letter-spacing: -1px;
+  text-shadow: 0px 1px 0px #fafafa;
+  box-shadow: 0 1px 2px #444, 0 0 0 7px #ccc, 0 0 0 9px #fff, 0 0 0 11px #999,
+    0 3px 10px 8px #ccc;
+}
+
+a:before,
+a:after {
+  content: "★";
+  color: #999;
+  font-size: 0.8em;
+}
+
+a {
+  background: #eaeaea;
+  background: -moz-linear-gradient(
+    top,
+    #eaeaea 0%,
+    #e0e0e0 50%,
+    #d8d8d8 51%,
+    #bcbcbc 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #eaeaea),
+    color-stop(50%, #e0e0e0),
+    color-stop(51%, #d8d8d8),
+    color-stop(100%, #bcbcbc)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #eaeaea 0%,
+    #e0e0e0 50%,
+    #d8d8d8 51%,
+    #bcbcbc 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    #eaeaea 0%,
+    #e0e0e0 50%,
+    #d8d8d8 51%,
+    #bcbcbc 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    #eaeaea 0%,
+    #e0e0e0 50%,
+    #d8d8d8 51%,
+    #bcbcbc 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    #eaeaea 0%,
+    #e0e0e0 50%,
+    #d8d8d8 51%,
+    #bcbcbc 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#bcbcbc',GradientType=0 );
+}
