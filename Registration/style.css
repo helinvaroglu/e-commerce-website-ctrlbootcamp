@@ -70,7 +70,7 @@ section
   width: 100%;
 }
 
-input, button
+input, .btn
 {
   position: relative;
   width: 100%;
@@ -132,6 +132,8 @@ a:hover
   font-size: 1.35em;
   letter-spacing: 0.05em;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;  
 }
 
 .btn:active
@@ -144,4 +146,9 @@ a:hover
   font-size: 14px;
   display: none;
   color: red;
+}
+
+#sign_in_btn
+{
+  text-align: center;
 }
