@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.checkout-container {
+    max-width: calc(80%);
+    max-height:calc(80%);
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-header {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #02172e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.checkout-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.billing-details,
+.order-summary {
+    flex: 0 0 calc(50% - 50px);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buy-now-button,
+.checkout-button {
+    display: block;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    background-color: #02172e;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.checkout-button:hover {
+    background-color: #0056b3;
+}
+.buy-now-button:hover{
+    background-color: #0056b3;
+}
+
+.order-summary p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+    color: #fff; 
+    background-color: #02172e; 
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+.back-button {
+    display: inline-block;
+    align-items: flex-end;
+    margin-top: 23px;
+    margin-left: 90%;
+    padding: 10px 20px;
+    background-color: #02172e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
