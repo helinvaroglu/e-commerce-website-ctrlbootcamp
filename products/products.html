@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link rel="stylesheet" href="./products.css">
+    <script src="./products.js"></script>
+    <script src="./data.js"></script>
+    <script src="../shopping_cart/cart.js"></script>
+    <meta name="format-detection" content="telephone=no">
+    <script src="cdn-cgi/apps/head/sxN6HgCn8v7CG45Nsym8imDXilk.js"></script>
+    <link rel="shortcut icon" href="../assets/images/demo-content/favicon.png">
+    <link rel="apple-touch-icon" href="../assets/images/demo-content/favicon.png">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body class="product-body">
+    <nav data-height="80" class="navbar navbar-default navbar-light navbar-desktop navbar--animated navbar-top">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-12">
+                <div class="navbar-header">
+                <a href="../index.html" class="navbar-brand">
+                    <img src="../img/image-removebg-fullwhite.png" alt="">
+                </a>
+                </div>
+                <ul class="navbar-buttons list-unstyled list-inline pull-right">
+                <li>
+                    <a href="../shopping_cart/cart.html" class="btn-group btn-group--separated">
+                    <span class="btn btn-xs btn-transparent btn--white btn-separated">Cart</span>
+                    <span class="btn btn-xs btn-transparent btn--white btn-separated">
+                        <i class="fa fa-shopping-cart"></i>
+                    </span>
+                    </a>
+                </li>
+                </ul>
+                <ul role="menu" class="nav navbar-nav ct-navbar--fadeIn">
+                <li class="nav-item">
+                    <a href="../index.html">Home</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    <a href="../products/products.html">Product</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="../registration/sign-in.html">Sign In / Sign Up</a>
+                </li>
+                <!--  <li class="nav-item">
+                    <a href="contact-us.html">Contact</a>
+                </li> -->
+                </ul>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-product">
+        <h1 style="color: #363636"> Products </h1>
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search products">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="category-buttons" style="display: flex; justify-content:center;">
+            <button id="all-product">All</button>
+            <button id="mobile-phone"><img src="../images/phone-regular-24.png" alt="phone"></button>
+            <button id="laptop"><img src="../images/laptop-regular-24.png" alt="pc"> </button>
+            <button id="headphone"><img src="../images/headphone-regular-24 (2).png" alt="pc"> </button>
+            <button id="earphone"><img src="../images/music-regular-24.png" alt="pc"> </button>
+            <!-- Add more category buttons as needed -->
+        </div>
+        <div class="products" id="products">
+            <!-- Product cards will be generated here -->
+        </div>
+        <div class="pagination-container">
+            <div class="pagination" id="pagination">
+                <!-- Pagination controls will be generated here -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

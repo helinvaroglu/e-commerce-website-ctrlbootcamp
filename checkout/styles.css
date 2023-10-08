@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(50, 50, 50);
+}
+
+.checkout-container {
+    max-width: calc(80%);
+    max-height:calc(80%);
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 25px;
+    background-color: rgb(34, 34, 34);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-header {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgb(50, 50, 50);
+    color: #45E3FC;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.checkout-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.billing-details,
+.order-summary {
+    flex: 0 0 calc(50% - 50px);
+    background-color: rgb(50, 50, 50);
+    padding: 20px;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 25px;
+}
+
+h2 {
+    color: #45E3FC;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #45E3FC;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkout-button {
+    display: block;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    background-color: #02172e;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.checkout-button:hover {
+    background-color: #0056b3;
+}
+
+.order-summary p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+    color: #fff; 
+    background-color: #02172e; 
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+.finish-button {
+    display: inline-block;
+    align-items: flex-end;
+    margin-top: 50px;
+    margin-left: 82%;
+    padding: 10px 20px;
+    background-color: #45E3FC;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.finish-button:hover {
+    background-color: #37b8cc;
+}
+
+.back-button {
+    display: inline-block;
+    align-items: flex-end;
+    margin-top: 1%;
+    margin-right: 85%;
+    padding: 10px 20px;
+    background-color: #45E3FC;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    background-color: #37b8cc;
+}
+

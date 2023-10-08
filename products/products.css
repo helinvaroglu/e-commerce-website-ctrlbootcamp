@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.product-body {
+    background-color: #363636;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container-product {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #363636;
+}
+
+/* CSS for Product cards */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#search-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#search-button {
+    background-color: #696969;
+    border: 2px solid #363636;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 7px 7px;
+    color: #F2F2F3;
+    border-radius: 10%;
+}
+
+#search-input {
+    border: 2px solid #363636;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 7px 7px;
+    color: #0a0a0b;
+    border-radius: 8%;
+}
+
+#category-buttons {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#mobile-phone,
+#laptop,
+#headphone,
+#earphone {
+    background-color: #696969;
+    border: 2px solid #363636;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 7px 7px;
+    border-radius: 10%;
+}
+#all-product{
+    background-color: #696969;
+    border: 2px solid #363636;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 7px 7px;
+    border-radius: 10%;
+    width: 40px;
+    color: #38C4DA;
+}
+
+.product-card {
+    display: flex; /* Display as flex container */
+    align-items: center; /* Align items at the center */
+    width: 80%;
+    padding: 20px;
+    background-color: #5E5E5E;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.product-image {
+    flex: 1; /* Take 1/3 of available space for the image */
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.product-details {
+    flex: 2; /* Take 2/3 of available space for details */
+    padding-left: 20px; /* Add spacing between image and details */
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #222222;
+}
+
+.product-color {
+    color: #F2F2F3;
+}
+
+.product-type {
+    color: #888;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.product-desc {
+    margin-top: 10px;
+    color: #F2F2F3;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e91e63;
+    margin-top: 10px;
+}
+
+.add-to-cart-button {
+    background-color: #45E3FC;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+    border-radius: 7px;
+    margin-left: auto; /* Push the button to the right */
+}
+
+.add-to-cart-button:hover {
+    background-color: #38C4DA; /* Darker blue on hover */
+}
+
+/* CSS for Pagination */
+.pagination-container {
+    text-align: center;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #45E3FC;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #38C4DA; /* Darker blue on hover */
+}
+
+.pagination button.active {
+    background-color: #2DA4B7;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
