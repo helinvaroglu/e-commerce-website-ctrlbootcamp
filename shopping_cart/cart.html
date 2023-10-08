@@ -13,15 +13,29 @@
         <div class="cart-header">
             <h1>Cart</h1>
         </div>
+        <a href="#" class="back-button">Back</a>
         <div class="cart-content">
-         
+            
             <div class="cart-details">
                 <h2>Order Summary</h2>
 
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Quantity</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productTableBody">
+                        <!-- Table rows will be dynamically added here -->
+                    </tbody>
+                </table>
             </div>
            
         </div>
-        <a href="#" class="back-button">Back</a>
+        
+        <a href="#" class="checkout-button">Checkout</a>
     </div>
     
 </body>
