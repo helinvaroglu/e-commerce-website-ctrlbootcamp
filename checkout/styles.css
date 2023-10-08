@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: rgb(50, 50, 50);
 }
 
 .checkout-container {
@@ -8,34 +8,38 @@ body {
     max-height:calc(80%);
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(34, 34, 34);
     border-radius: 25px;
-    background-color: #ccc;
+    background-color: rgb(34, 34, 34);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .checkout-header {
     text-align: center;
     margin-bottom: 10px;
-    background-color: #02172e;
-    color: #fff;
+    background-color: rgb(50, 50, 50);
+    color: #45E3FC;
     padding: 10px;
     border-radius: 25px;
 }
 
 .checkout-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 60px;
 }
 
 .billing-details,
 .order-summary {
     flex: 0 0 calc(50% - 50px);
-    background-color: #fff;
+    background-color: rgb(50, 50, 50);
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(50, 50, 50);
     border-radius: 25px;
+}
+
+h2 {
+    color: #45E3FC;
 }
 
 .form-group {
@@ -46,6 +50,7 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    color: #45E3FC;
 }
 
 input[type="text"],
@@ -56,7 +61,6 @@ input[type="email"] {
     border-radius: 5px;
 }
 
-.buy-now-button,
 .checkout-button {
     display: block;
     font-weight: bold;
@@ -73,9 +77,6 @@ input[type="email"] {
 .checkout-button:hover {
     background-color: #0056b3;
 }
-.buy-now-button:hover{
-    background-color: #0056b3;
-}
 
 .order-summary p {
     font-size: 24px;
@@ -89,13 +90,30 @@ input[type="email"] {
 }
 
 
+.finish-button {
+    display: inline-block;
+    align-items: flex-end;
+    margin-top: 50px;
+    margin-left: 82%;
+    padding: 10px 20px;
+    background-color: #45E3FC;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.finish-button:hover {
+    background-color: #37b8cc;
+}
+
 .back-button {
     display: inline-block;
     align-items: flex-end;
-    margin-top: 23px;
-    margin-left: 90%;
+    margin-top: 1%;
+    margin-right: 85%;
     padding: 10px 20px;
-    background-color: #02172e;
+    background-color: #45E3FC;
     color: #fff;
     text-decoration: none;
     border-radius: 25px;
@@ -103,5 +121,6 @@ input[type="email"] {
 }
 
 .back-button:hover {
-    background-color: #0056b3;
+    background-color: #37b8cc;
 }
+

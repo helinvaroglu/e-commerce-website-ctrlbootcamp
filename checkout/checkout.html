@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
+    <title>Checkout Page</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
    
@@ -13,6 +13,7 @@
         <div class="checkout-header">
             <h1>Checkout</h1>
         </div>
+        <a href="../shopping_cart/cart.html" class="back-button">Back</a>
         <div class="checkout-content">
          
             <div class="billing-details">
@@ -43,25 +44,10 @@
                         <label for="cvv">CVV</label>
                         <input type="text" id="cvv" placeholder="123" required>
                     </div>
-                    <button type="submit" class="checkout-button">Place Order</button>
                 </form>
             </div>
-
-            <div class="order-summary">
-                <h2>Order Summary</h2>
-                <!-- Display items in the cart -->
-                <ul>
-                    <li>Product 1 - $19.99</li>
-                    <li>Product 2 - $29.99</li>
-                    <!-- Add more items here -->
-                </ul>
-                <p>Total: $49.98</p>
-                <button class="buy-now-button">Buy Now</button>
-               
-            </div>
-           
         </div>
-        <a href="#" class="back-button">Back</a>
+        <a href="../confirmation/confirm.html" class="finish-button">Complete Order</a>
     </div>
     
 </body>
