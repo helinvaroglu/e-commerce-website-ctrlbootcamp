@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${product.item.name}</td>
-            <td>
+            <td style="text-align: center">
                 <button class="quantity-button decrease" data-action="decrease">-</button>
                 <span>${product.quantity}</span>
                 <button class="quantity-button increase" data-action="increase">+</button>
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Set the total row
     totalRow.innerHTML = `
-        <td colspan="2"><strong>Total</strong></td>
+        <td colspan="2" style="color: #e91e63"><strong>Total</strong></td>
         <td><strong>$${total}</strong></td>
     `;
     tableBody.appendChild(totalRow);
