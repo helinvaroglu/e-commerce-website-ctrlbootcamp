@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: rgb(50, 50, 50);
 }
 
 .checkout-container {
@@ -8,17 +8,17 @@ body {
     max-height:calc(80%);
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(34, 34, 34);
     border-radius: 25px;
-    background-color: #ccc;
+    background-color: rgb(34, 34, 34);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .checkout-header {
     text-align: center;
     margin-bottom: 10px;
-    background-color: #02172e;
-    color: #fff;
+    background-color: rgb(50, 50, 50);
+    color: #45E3FC;
     padding: 10px;
     border-radius: 25px;
 }
@@ -26,16 +26,25 @@ body {
 .checkout-content {
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .billing-details,
 .order-summary {
     flex: 0 0 calc(50% - 50px);
-    background-color: #fff;
+    background-color:  rgb(50, 50, 50);
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid  rgb(50, 50, 50);
     border-radius: 25px;
+    
+}
+.order-summary h2,
+.billing-details{
+    color: #e91e63;
+}
+
+h2 {
+    color: #45E3FC;
 }
 
 .form-group {
@@ -46,56 +55,95 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    color: #fff;
 }
 
 input[type="text"],
 input[type="email"] {
     width: 90%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 3px solid #45E3FC;
     border-radius: 5px;
 }
 
-.buy-now-button,
 .checkout-button {
     display: block;
     font-weight: bold;
     width: 100%;
     padding: 10px;
-    background-color: #02172e;
+    background-color: #45E3FC;
     color: #fff;
     border: none;
     border-radius: 25px;
     cursor: pointer;
     font-size: 18px;
+    margin-top: 15px;
 }
 
 .checkout-button:hover {
     background-color: #0056b3;
 }
-.buy-now-button:hover{
-    background-color: #0056b3;
-}
 
 .order-summary p {
-    font-size: 24px;
+    display: block;
+    font-size: 20px;
     font-weight: bold;
-    text-align: right;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
     margin-top: 20px;
     color: #fff; 
-    background-color: #02172e; 
-    padding: 10px;
+    background-color: #696969; 
+    border-radius: 25px;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #696969;
     border-radius: 25px;
 }
+th, td {
+    border-radius: 25px;
+    text-align: left;
+    padding: 8px;
+    
+}
+th {
+    background-color: #696969;
+    color: #e91e63;
+}
 
+.sub-order-summary {
+    border-radius: 23px;
+    border: 1px solid #45E3FC;
+    color: #fff;
+}
+
+.finish-button {
+    display: inline-block;
+    align-items: flex-end;
+    margin-top: 50px;
+    margin-left: 82%;
+    padding: 10px 20px;
+    background-color: #45E3FC;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.finish-button:hover {
+    background-color: #37b8cc;
+}
 
 .back-button {
     display: inline-block;
     align-items: flex-end;
-    margin-top: 23px;
-    margin-left: 90%;
+    margin-top: 1%;
+    margin-right: 85%;
     padding: 10px 20px;
-    background-color: #02172e;
+    background-color: #45E3FC;
     color: #fff;
     text-decoration: none;
     border-radius: 25px;
@@ -103,5 +151,32 @@ input[type="email"] {
 }
 
 .back-button:hover {
-    background-color: #0056b3;
+    background-color: #37b8cc;
 }
+
+.order-summary table th{
+
+    visibility: hidden;
+}
+
+/* 
+#thank-you-card {
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background-color: #f9f9f9;
+ padding: 20px;
+ border: 1px solid #ccc;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ animation: fade-away 5s forwards;
+}
+
+@keyframes fade-away {
+  0% {
+    opacity: 1;
+ }
+  100% {
+    opacity: 0;
+ }
+} */
