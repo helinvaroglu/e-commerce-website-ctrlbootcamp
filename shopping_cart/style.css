@@ -2,12 +2,9 @@
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: rgb(50, 50, 50);
-<<<<<<< Updated upstream
-=======
     font-weight: 450;
     padding: 0px;
     margin: 0px;
->>>>>>> Stashed changes
 }
 
 .cart-container {
@@ -38,18 +35,12 @@ body {
 
 .cart-details {
     margin: auto;
-<<<<<<< Updated upstream
-    flex: 0 0 calc(50% - 50px);
-=======
     flex: 0 0 calc(60% - 40px);
->>>>>>> Stashed changes
     background-color: rgb(50, 50, 50);
     padding: 20px;
     border: 1px solid rgb(50, 50, 50);
     border-radius: 25px;
 }
-<<<<<<< Updated upstream
-=======
 .cart-details > h2{
     text-align: center;
 }
@@ -78,7 +69,6 @@ body {
     margin: 5px 0px;
 }
 
->>>>>>> Stashed changes
 
 .order-summary p {
     font-size: 24px;
@@ -101,11 +91,7 @@ table {
     background-color: #696969;
 }
 th, td {
-<<<<<<< Updated upstream
-    border: 2px solid #45E3FC;
-=======
     border: 1px solid #7c9092;
->>>>>>> Stashed changes
     text-align: left;
     padding: 8px;
 }
@@ -148,8 +134,6 @@ th {
     background-color: #37b8cc;
 }
 
-<<<<<<< Updated upstream
-=======
 
 .cart-info{
     display: flex;
@@ -161,4 +145,3 @@ td img{
     height: 100px;
     margin-right: 10px;
 }
->>>>>>> Stashed changes

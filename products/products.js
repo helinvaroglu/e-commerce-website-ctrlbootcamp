@@ -169,10 +169,6 @@ function addToCart(productId) {
 
     localStorage.setItem("shopping_cart", JSON.stringify(shopping_cart));
     console.log(shopping_cart);
-<<<<<<< Updated upstream
-}
-  
-=======
 
     const successAlert = document.getElementById("success-alert");
     successAlert.style.display = "block";
@@ -190,6 +186,5 @@ function updateCartItemCount(){
 
     updateCartItemCount();
 }
->>>>>>> Stashed changes
 
   

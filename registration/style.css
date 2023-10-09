@@ -52,7 +52,7 @@ section
 .content h2 
 {
   font-size: 2em;
-  color: rgb(218, 218, 218);
+  color: rgb(170, 170, 170);
   text-transform: uppercase;
 }
 
@@ -90,7 +90,7 @@ i
   left: 0;
   padding: 15px 10px;
   font-style: normal;
-  color: rgb(218, 218, 218);
+  color: rgb(170, 170, 170);
   transition: 0.5s;
   pointer-events: none;
 }
@@ -144,9 +144,8 @@ a:hover
 #confirm_message
 {
   font-size: 14px;
-  font-weight: 600;
   display: none;
-  color: rgb(248, 88, 88);
+  color: red;
 }
 
 #sign_in_btn, #sign_up_btn
