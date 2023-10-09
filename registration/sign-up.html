@@ -88,6 +88,7 @@
             const user = userCredential.user;
             console.log(user);
             alert("Your account has been created!");
+            window.location.replace("sign-in.html");
           })
           .catch((error) => {
             const errorCode = error.code;
