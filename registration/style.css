@@ -148,7 +148,7 @@ a:hover
   color: red;
 }
 
-#sign_in_btn
+#sign_in_btn, #sign_up_btn
 {
   text-align: center;
 }

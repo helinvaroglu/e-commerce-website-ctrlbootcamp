@@ -6,10 +6,10 @@ form.addEventListener('submit', e => {
 
 var confirmPassword = function() {
   if (document.getElementById('password').value !=
-    document.getElementById('confirmPassword').value) {
-    document.getElementById('confirmMessage').style.display = 'inline';
+    document.getElementById('confirm_password').value) {
+    document.getElementById('confirm_message').style.display = 'inline';
   }
   else {
-    document.getElementById('confirmMessage').style.display = 'none';
+    document.getElementById('confirm_message').style.display = 'none';
   }
 }
