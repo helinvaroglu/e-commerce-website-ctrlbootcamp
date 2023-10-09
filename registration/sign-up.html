@@ -79,10 +79,12 @@
 
       const email = document.querySelector("#email");
       const password = document.querySelector("#password");
+      const confirmPassword = document.querySelector("#confirm")
       const form = document.querySelector("#form");
       const sign_up_btn = document.querySelector("#sign_up_btn");
 
       const userSignUp = async () => {
+        if(password != confirmPassword){
         createUserWithEmailAndPassword(auth, email.value, password.value)
           .then((userCredential) => {
             const user = userCredential.user;
@@ -94,7 +96,11 @@
             const errorCode = error.code;
             const errorMessage = error.message;
             console.log(errorCode + errorMessage);
-          });
+            alert(errorMessage);
+          })}
+          else {
+            alert("Passwords don't match or invalid password!");
+          };
       };
       sign_up_btn.addEventListener("click", userSignUp);
     </script>
