@@ -147,6 +147,30 @@ h1 {
     background-color: #38C4DA; /* Darker blue on hover */
 }
 
+/* Cart Icon Settings */
+.cart-icon{
+    position: relative;
+    display: inline-block;
+}
+.item-count{
+    position: absolute;
+    top: -25px;
+    right: -23px;
+    background-color: #38C4DA;
+    color: #0a0a0b;
+    border-radius: 70%;
+    padding: 4px 8px;
+    font-size: 8px;
+    border: 1px solid white;
+}
+
+
+.alert-success {
+    border-radius: px;
+    font-size: 13px;
+    border: 1px solid black;
+}
+
 /* CSS for Pagination */
 .pagination-container {
     text-align: center;

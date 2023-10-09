@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="product-type">${product.type}</div>
                     <div class="product-color">${product.color}</div>
                     <div class="product-desc">${product.desc}</div>
-                    <div class="product-price">${product.price} TL</div>
+                    <div class="product-price">${product.price}₺</div>
                 </div>
                 <button onclick="addToCart(${product.id})" class="add-to-cart-button">Add to Cart</button>
             </div>
@@ -169,7 +169,27 @@ function addToCart(productId) {
 
     localStorage.setItem("shopping_cart", JSON.stringify(shopping_cart));
     console.log(shopping_cart);
+<<<<<<< Updated upstream
 }
   
+=======
+
+    const successAlert = document.getElementById("success-alert");
+    successAlert.style.display = "block";
+    setTimeout(() => {
+        successAlert.style.display = "none";
+    }, 3000);
+
+    updateCartItemCount();
+}
+
+function updateCartItemCount(){
+    const itemCount = shopping_cart.reduce((total, item) => total + item.quantity, 0);
+    const itemCountElement = document.querySelector(".item-count");
+    itemCountElement.textContent = itemCount.toString();
+
+    updateCartItemCount();
+}
+>>>>>>> Stashed changes
 
   

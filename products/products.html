@@ -34,6 +34,10 @@
                     <span class="btn btn-xs btn-transparent btn--white btn-separated">Cart</span>
                     <span class="btn btn-xs btn-transparent btn--white btn-separated">
                         <i class="fa fa-shopping-cart"></i>
+                        <div class="cart-icon">
+                            <ion-icon name="cart-outline"></ion-icon>
+                            <div class="item-count">0</div>
+                        </div>
                     </span>
                     </a>
                 </li>
@@ -72,6 +76,12 @@
             <button id="headphone"><img src="../images/headphone-regular-24 (2).png" alt="pc"> </button>
             <button id="earphone"><img src="../images/music-regular-24.png" alt="pc"> </button>
             <!-- Add more category buttons as needed -->
+        </div>
+        <!-- Adding Product Alert-->
+        <div class="alert alert-success" role="alert" id="success-alert" style="display: none;">
+            <p>Add product successful. 
+            <br>
+            Please check the box...</p>
         </div>
         <div class="products" id="products">
             <!-- Product cards will be generated here -->

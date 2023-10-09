@@ -1,6 +1,11 @@
+<<<<<<< Updated upstream
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 body {
     font-family: 'Quicksand', sans-serif;
+=======
+body {
+    font-family: Arial, sans-serif;
+>>>>>>> Stashed changes
     background-color: rgb(50, 50, 50);
 }
 
@@ -26,17 +31,34 @@ body {
 
 .checkout-content {
     display: flex;
+<<<<<<< Updated upstream
     justify-content: center;
     margin-top: 60px;
+=======
+    justify-content: space-between;
+    margin-top: 20px;
+>>>>>>> Stashed changes
 }
 
 .billing-details,
 .order-summary {
     flex: 0 0 calc(50% - 50px);
+<<<<<<< Updated upstream
     background-color: rgb(50, 50, 50);
     padding: 20px;
     border: 1px solid rgb(50, 50, 50);
     border-radius: 25px;
+=======
+    background-color:  rgb(50, 50, 50);
+    padding: 20px;
+    border: 1px solid  rgb(50, 50, 50);
+    border-radius: 25px;
+    
+}
+.order-summary h2,
+.billing-details{
+    color: #e91e63;
+>>>>>>> Stashed changes
 }
 
 h2 {
@@ -51,14 +73,22 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+<<<<<<< Updated upstream
     color: #45E3FC;
+=======
+    color: #fff;
+>>>>>>> Stashed changes
 }
 
 input[type="text"],
 input[type="email"] {
     width: 90%;
     padding: 10px;
+<<<<<<< Updated upstream
     border: 1px solid #ccc;
+=======
+    border: 3px solid #45E3FC;
+>>>>>>> Stashed changes
     border-radius: 5px;
 }
 
@@ -67,12 +97,20 @@ input[type="email"] {
     font-weight: bold;
     width: 100%;
     padding: 10px;
+<<<<<<< Updated upstream
     background-color: #02172e;
+=======
+    background-color: #45E3FC;
+>>>>>>> Stashed changes
     color: #fff;
     border: none;
     border-radius: 25px;
     cursor: pointer;
     font-size: 18px;
+<<<<<<< Updated upstream
+=======
+    margin-top: 15px;
+>>>>>>> Stashed changes
 }
 
 .checkout-button:hover {
@@ -80,6 +118,7 @@ input[type="email"] {
 }
 
 .order-summary p {
+<<<<<<< Updated upstream
     font-size: 24px;
     font-weight: bold;
     text-align: right;
@@ -97,11 +136,58 @@ input[type="email"] {
     margin-top: 50px;
     margin-left: 82%;
     padding: 10px 20px;
+=======
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    color: #fff; 
+    background-color: #696969; 
+    border-radius: 25px;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #696969;
+    border-radius: 25px;
+}
+th, td {
+    border-radius: 25px;
+    text-align: left;
+    padding: 8px;
+    
+}
+th {
+    background-color: #696969;
+    color: #e91e63;
+}
+
+.sub-order-summary {
+    border-radius: 23px;
+    border: 1px solid #45E3FC;
+    color: #fff;
+}
+
+.finish-button {
+    display: inline-block;
+    align-items:flex-start;
+    margin-top: 50px;
+    margin-left:3%;
+    padding: 5px 20px;
+>>>>>>> Stashed changes
     background-color: #45E3FC;
     color: #fff;
     text-decoration: none;
     border-radius: 25px;
     font-weight: bold;
+<<<<<<< Updated upstream
+=======
+    width: 90%;
+>>>>>>> Stashed changes
 }
 
 .finish-button:hover {
@@ -125,3 +211,32 @@ input[type="email"] {
     background-color: #37b8cc;
 }
 
+<<<<<<< Updated upstream
+=======
+.order-summary table th{
+
+    visibility: hidden;
+}
+
+/* 
+#thank-you-card {
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background-color: #f9f9f9;
+ padding: 20px;
+ border: 1px solid #ccc;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ animation: fade-away 5s forwards;
+}
+
+@keyframes fade-away {
+  0% {
+    opacity: 1;
+ }
+  100% {
+    opacity: 0;
+ }
+} */
+>>>>>>> Stashed changes
